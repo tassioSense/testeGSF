@@ -117,7 +117,7 @@ header{
     height: 50px;
     width: 50px;
     float: right;
-    margin-top: -11.5%;
+    margin-top: -12.2%;
     margin-right: 2%;
     text-align: center;
     color: aliceblue;
@@ -175,71 +175,64 @@ header{
 /*--------------------------------------Atributos*/
 .descricao {
     width: 87.5%;
-    padding: 5% 7%;
+    padding: 1% 4%;
     margin-left: auto;
-    margin-right: auto;
-    border-bottom: 1px;
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-style: solid;
-    border-color: rgb(34, 27, 27);    
-    margin-top: -10%;  
+    margin-right: auto; 
+    display: flex;
+    margin-top: -20%;  
+    
+    
+}
+
+.dados {
+    width: 30%;
+    padding: 0%;
+    background-color: aqua;
+}
+
+.dados h2, h3 {
+    font-family: Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.dados h2 {
+    font-size: 26px;
+    
+}
+
+.dados::after {
+    content: "";
+    width: 400px;
+    height: 1.5px;
+    background: rgb(154, 161, 115);
+    display: block;
+    margin-left: -9.5%;
 
 }
 
-.nome {
-    width: 35%;
-    padding: 2% 2%;
+
+.caracteristicas {
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.caracteristicas div {
+    flex-direction: column;
+    margin: 5px;
+    padding: 0 10px;
+    flex-grow: 1;
     text-align: center;
-    margin-left: -6%;
-    border-bottom: 0px;
-    border-top-width: 0px;
-    border-right-width: 1px;
-    border-left-width: 0px;
-    border-style: solid;
-    border-color: rgb(34, 27, 27);
-    
+        
 }
 
-.nome h2 {
-    text-transform: uppercase;
-    font-size: 140%;
-    padding-top: 6%;
-    margin-left: -5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+.caracteristicas h4 {
+    font-size: 15px;
 }
 
-.nome h3 {
-    text-transform: uppercase;
-    font-size: 100%;
-    padding-top: 0%;
-    margin-top: -10%;
-    margin-left: 35%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
-    font-style: italic;
+.caracteristicas p {
+    font-size: 12px;
 }
-
-.nome div {
-    width: 50%;
-    padding: 0px;
-    margin: 0%;
-    margin-left: 12%;
-   
-    
-}
-
-.nome div img {
-    width: 50%;
-    float: left;
-}
-
-.nome div p {
-    width: 40%;
-    float: right;
-    font-family:sans-serif;
-    font-size: 11px;
-    margin-top: 8%;
-}
-
 
