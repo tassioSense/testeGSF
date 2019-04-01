@@ -23,10 +23,11 @@
 /*Section info*/
 
 .info{
-    width: 20%;
-    border-radius: 7% 7% 0 0;    
+    width: 15%;  
     display: flex;
     flex-direction: column;
+    box-shadow: 2px 2px 3px rgb(214, 209, 209);
+    border-radius: 0% 0% 5px 5px;
 }
 
 .perfil {
@@ -38,8 +39,9 @@
 
 .perfil a img {
     height: 250px;
-    border: 2px solid aliceblue;
-    border-radius: 7% 7% 0 0; 
+    box-shadow: 2px 2px 3px rgb(214, 209, 209);
+    border-bottom: none;
+    border-radius: 5px 5px 0% 0%;
 }
 
 /*
@@ -69,7 +71,7 @@
     margin-top: 6%;
     text-transform: uppercase;
     font-size: 1.4em;
-    text-align: left;
+    text-align: center;
 }
 
 /*icone*/
